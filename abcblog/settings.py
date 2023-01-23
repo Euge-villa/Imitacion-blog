@@ -17,6 +17,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 from decouple import config
 import dj_database_url
+import cloudinary
+import cloudinary.uploader
 import cloudinary.api
 
 # Quick-start development settings - unsuitable for production
